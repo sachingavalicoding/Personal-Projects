@@ -26,7 +26,6 @@ const Signup = () => {
 
     const [errors, setErrors] = useState({});
 
-    // Handle input change
     const handleChange = (e) => {
         const { name, value } = e.target;
 

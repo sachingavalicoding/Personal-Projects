@@ -54,9 +54,7 @@ const Button = ({
         ${sizes[size]}
         ${className}
       `}
-            {...props}
         >
-            {/* Shine animation */}
             <span
                 className="
           absolute inset-0 -translate-x-full
